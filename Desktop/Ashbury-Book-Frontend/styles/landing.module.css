@@ -1,0 +1,11 @@
+.explanation {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+
+.title {
+    color: red;
+    text-align: center;
+}
