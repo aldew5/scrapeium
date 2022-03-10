@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import { ExperimentContext } from "./ExperimentContext.js";
 
 import blackT from "../assets/blackT.png";
@@ -62,6 +62,7 @@ const Image = ({ tilt, letter, type }) => {
 
             width = "80";
             height = "80";
+
         }
         else if (type === "bigdotT") {
             src = dotT;
@@ -69,13 +70,14 @@ const Image = ({ tilt, letter, type }) => {
             width = "80";
             height = "80";
         }
-        else if (type === "blobT") {
+
+        else if (type === "blobT"){
             src = blobT;
 
             width = "100";
             height = "100";
         }
-        else if (type === "arrowT") {
+        else if (type === "arrowT"){
             src = arrowT;
 
             width = "100";
@@ -110,18 +112,20 @@ const Image = ({ tilt, letter, type }) => {
             width = "80";
             height = "80";
         }
-        else if (type === "blobL") {
+        else if (type === "blobL"){
             src = blobL;
 
             width = "100";
             height = "100";
         }
-        else if (type === "arrowL") {
+        else if (type === "arrowL"){
             src = arrowL;
 
             width = "100";
             height = "100";
         }
+
+
     }
 
     // randomly choose whether to have an inverted T
@@ -187,6 +191,7 @@ const Image = ({ tilt, letter, type }) => {
             height={height}
 
         />
+
     )
 }
 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-import "./Experiment.css"
+import "../styles/Experiment.css"
 import Selection from "../components/Selection.js";
 import { ExperimentContext } from "../components/ExperimentContext";
 import Complete from "../components/Complete.js";
@@ -62,18 +62,21 @@ const Experiment = () => {
 
   });
 
+
   // count the trials 
   useEffect(() => {
     if (isPress) {
       if (practice > 0) {
         setPractice(practice - 1);
       }
+
       else if (exper > 0) {
         setExper(exper - 1);
       }
       setIsPress(false);
       setIndex(index + 1);
     }
+
   }, [isPress]);
 
   // delay the image display so that 
@@ -86,6 +89,7 @@ const Experiment = () => {
   })
 
   useEffect(() => {
+
     if (displayImages && display) {
       setCanPress(true);
       forceUpdate();
@@ -136,6 +140,7 @@ const Experiment = () => {
                 index={index}
               />
             </div>}
+
         </div> :
         <Complete />
       }

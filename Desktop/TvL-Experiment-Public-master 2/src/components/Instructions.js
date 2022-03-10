@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import "./Instructions.css";
-
+import "../styles/Instructions.css";
 import rightT from "../assets/rightdotT.png";
 import leftT from "../assets/leftsharpT.png";
 import blobLeft from "../assets/blobLeft.png";
@@ -39,6 +38,7 @@ const Instructions = () => {
       </div>
     </div>
   )
+
 }
 
 export default Instructions;

@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useContext } from "react";
-import "./Selection.css";
+import "../styles/Selection.css";
 import { ExperimentContext } from "./ExperimentContext";
 import firebase from "../util/firebase.js";
 
@@ -14,6 +14,7 @@ const Selection = ({ keyVal, keyPressed, setKeyVal, setDisplay,
     const [initials, setInitials, condition, setCondition, TvL, setTvL, practice, setPractice,
         exper, setExper, size1, setSize1, size2, setSize2, size3,
         setSize3, prob, setProb, sizes, setSizes, shuffle, date, setDate] = useContext(ExperimentContext);
+    
         
     // update the display after 2s to redisplay the Ts and Ls
     useEffect(() => {

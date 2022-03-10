@@ -1,6 +1,7 @@
-import React, { useContext, useEffect, useState } from "react";
-import Image from "./Image";
+import { useContext, useEffect, useState } from "react";
 import { ExperimentContext } from "../components/ExperimentContext";
+import Image from "./Image";
+
 
 const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, type }) => {
 
@@ -17,6 +18,7 @@ const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, 
         // make a list of Ls evenly distributed
         let index = 0;
         let Ls = [];
+
 
         var style = "";
         // create an array with a single T
@@ -37,7 +39,6 @@ const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, 
 
         let rand = Math.random();
 
-        // create the list of letters that will be displayed
         if (TvL === "1") {
 
             if (type === "") {
@@ -103,6 +104,8 @@ const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, 
                 if (type === "") {
                     style = "black";
                 }
+
+                // colours = ["red", "green", "black"];
 
                 // we can have red, green, and black Ls
                 for (var i = 0; i < (size - 1) / 3; i++) {
@@ -261,16 +264,16 @@ const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, 
             for (var i = 0; i < (size - 1) - (size - 1) / 2; i++) {
                 Ls.push("arrowL");
             }
-        }
 
+        }
         setType(style);
+
 
         // update the list of rendered T types
         let copy = types;
         copy.push(style);
         setTypes(copy);
-        
-        // randomize the order they are displayed
+
         shuffle(Ls);
 
         let letters2 = [];
@@ -295,14 +298,17 @@ const Images = ({ setType, size, keyVal, setStartTime, types, setTypes, setPos, 
                         type={style}
                     />)
             }
-        }
 
+
+        }
         setLetters(letters2);
     }, []);
 
     return (
         <div>{letters}</div>
     )
+
 }
+
 
 export default Images;
