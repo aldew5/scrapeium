@@ -1,0 +1,61 @@
+.para {
+    float: left;
+    width: 500px;
+    margin-top: 12rem;
+    height: 580px;
+}
+
+.para2 {
+    float: left;
+    width: 500px;
+    margin-top: 12rem;
+    height: 580px;
+    padding-right: 2rem;
+}
+
+.map {
+    float: left;
+    width: 500px;
+    height: 400px;
+    margin-top: 12rem;
+}
+
+.images {
+    float: left;
+    width: 500px;
+    height: 400px;
+    margin-top: 12rem;
+    margin-left: 1rem;
+}
+
+.bar {
+    width: 300px;
+    float: left;
+}
+
+.profile {
+    margin-top: 4rem;
+}
+
+.github {
+    width: 200px;
+    display: table-cell;
+    color: white;
+    font-size: 20px;
+}
+
+.website {
+    display: table-cell;
+    color: white;
+    font-size: 20px;
+}
+
+.github:hover {
+    text-decoration: underline;
+    color: purple;
+}
+
+.website:hover {
+    text-decoration: underline;
+    color: purple;
+}

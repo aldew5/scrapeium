@@ -1,0 +1,31 @@
+.name {
+    padding-left: 35%;
+    font-size: 30px;
+}
+
+.picture {
+    border-radius: 60%;
+    width: 100px;
+    margin-left: 3rem;
+}
+
+.description {
+    padding-left: 5rem;
+    margin-bottom: 1rem;
+}
+
+.menuItem {
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+}
+
+.linkedin {
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    float: left;
+}
+
+.github {
+    float: left;
+    margin-right: 4rem;
+}

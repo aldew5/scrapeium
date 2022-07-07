@@ -1,0 +1,24 @@
+.project {
+    display: flex;
+    float: left;
+    padding-left: 2rem;
+}
+
+.title {
+    margin-top: 6rem;
+    padding-left: 2rem;
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+}
+
+.projects {
+    display: block;
+    margin-top: 2rem;
+}
+
+.bar {
+    display: flex;
+    float: left;
+    height: 800px;
+}

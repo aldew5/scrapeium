@@ -1,0 +1,15 @@
+.main {
+    color: white;
+    word-spacing: 50px;
+    text-align: center;
+}
+
+.field {
+    flex:1;
+    color:white;
+}
+
+.field:hover {
+    text-decoration: underline;
+    color: rgb(206, 35, 206);
+}

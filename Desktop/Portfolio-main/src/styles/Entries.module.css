@@ -1,0 +1,37 @@
+.text {
+    color: white;
+    margin-top: 7rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    display: block;
+}
+
+.title {
+    color: white;
+    font-size: 25px;
+}
+
+.date {
+    color: white;
+    margin-bottom: 1rem;
+    width: 150px;
+    float: left;
+}
+
+.link {
+    margin-left: 700px;
+    text-decoration: underline;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.body {
+    margin-top: 3rem;
+}
+
+.notes {
+    margin-left: -4rem;
+}

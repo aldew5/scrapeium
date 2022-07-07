@@ -1,0 +1,27 @@
+.container {
+    margin: auto;
+    margin-top: 10%;
+    align-content: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.image {
+    width: 200px;
+    height: 175px;
+}
+
+.changed_image {
+    width: 250px;
+    height: 200px;
+}
+
+.book {
+    padding-left: 3rem;
+}
+
+.changed_book {
+    padding-left: 4rem;
+}
