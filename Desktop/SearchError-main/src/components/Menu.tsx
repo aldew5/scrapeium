@@ -16,13 +16,12 @@ const Menu = ({ setId, id }: MenuProps) => {
         setId(event.target.value);
     }
 
-    // maybe a label tag above input tag
     return (
         <div className={styles.menu}>
-            <div className="intro">
+            <div className={styles.intro}>
                 <h1>Enter Your MTurk ID</h1>
             </div>
-            <div className="actions">
+            <div className={styles.actions}>
                 <input type="text" placeholder="Enter Your MTurk ID" onChange={handleChange} />
                 <Button variant="contained" onClick={() => { navigate("/instructions"); }}>
                     Submit
