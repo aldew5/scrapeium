@@ -4,7 +4,7 @@ import { Marker } from "react-simple-maps"
 const Map = () => {
 
   const geoUrl =
-    "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
+  "https://raw.githubusercontent.com/deldersveld/topojson/master/continents/north-america.json";
 
   return (
     <div>
@@ -12,8 +12,7 @@ const Map = () => {
         projection="geoAzimuthalEqualArea"
         projectionConfig={{
           rotate: [85, -30, 10],
-          scale: 400,
-          width: 600
+          scale: 400
         }}>
         <Geographies
           geography={geoUrl}

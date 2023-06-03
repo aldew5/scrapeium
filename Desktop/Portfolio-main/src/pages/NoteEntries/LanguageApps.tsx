@@ -1,7 +1,3 @@
-import File1 from "../../assets/Notes/Language_Applications1/001.png";
-import File2 from "../../assets/Notes/Language_Applications1/002.png";
-import File3 from "../../assets/Notes/Language_Applications1/003.png";
-
 import styles from "../../styles/Entries.module.css";
 import { useNavigate } from "react-router-dom";
 
@@ -12,7 +8,7 @@ const LanguageApps = () => {
     return (
         <div className={styles.text}>
             <div className={styles.title}>
-                Single-Qubit Quantum Systems
+                Language Applications
                 <hr />
             </div>
             <div className={styles.container}>
@@ -23,11 +19,8 @@ const LanguageApps = () => {
                     See all posts
                 </div>
             </div>
-            <div className={styles.notes}>
-                <img src={File1} width="900px" alt="not found" />
-                <img src={File2} width="900px" alt="not found" />
-                <img src={File3} width="900px" alt="not found" />
-            </div>
+            <iframe src="https://docs.google.com/document/d/e/2PACX-1vQQ4HI97brD8-RsH0udl9Pb7dU_DRJjjZlyxD_jm_pcQAmA9DFsT3AZE0m2KEcKgLpMwofBU423Ht--/pub?embedded=true"
+                width="800px" height="700px" frameBorder="0" />
         </div>
 
     )

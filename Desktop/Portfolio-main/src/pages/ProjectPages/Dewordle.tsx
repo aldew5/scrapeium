@@ -1,6 +1,5 @@
 import SideBar from "../../components/SideBar";
 import styles from "../../styles/Template.module.css";
-import { Typography } from "@mui/material";
 
 // images
 import Game from "../../assets/Dewordle/dewordle.png";
@@ -10,16 +9,15 @@ const Deworlde = () => {
     return (
         <div style={{ width: "100%", overflow: "hidden" }}>
             <div className={styles.bar}>
-                <SideBar />
             </div>
             <div className={styles.para}>
-                <Typography variant="h4" color="white" style={{ marginBottom: "2rem" }}>Dewordle</Typography>
-                <Typography variant="h6" color="white" style={{ marginBottom: "2rem" }}>
+                <div style={{ marginBottom: "2rem", color: "white", fontSize: "40px" }}>Dewordle</div>
+                <div style={{ marginBottom: "2rem", color: "white", fontSize: "20px" }}>
                     Dewordle is a game I made for my school. It's like Wordle, but instead of using
                     the boring set of words found in a dictionary, it uses names of my friends, buildings,
                     and even made up words.  We've had a lot more fun playing this than the real Wordle.
                     It was build with React JS and Typescript.
-                </Typography>
+                </div>
                 <div style={{ width: "100", display: "table" }}>
                     <div style={{ display: "table-row" }}>
                         <div className={styles.github}

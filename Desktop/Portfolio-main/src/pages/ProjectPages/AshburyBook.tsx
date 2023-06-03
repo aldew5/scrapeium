@@ -1,6 +1,5 @@
 import SideBar from "../../components/SideBar";
 import styles from "../../styles/Template.module.css";
-import { Typography } from "@mui/material";
 
 // images
 import Hub from "../../assets/AshburyBook/Hub.png";
@@ -11,15 +10,14 @@ const AshburyBook = () => {
     return (
         <div style={{ width: "100%", overflow: "hidden" }}>
             <div className={styles.bar}>
-                <SideBar />
             </div>
             <div className={styles.para}>
-                <Typography variant="h4" color="white" style={{ marginBottom: "2rem" }}>Ashbury Book</Typography>
-                <Typography variant="h6" color="white" style={{ marginBottom: "2rem" }}>
+                <div style={{ marginBottom: "2rem", color: "white", fontSize: "40px" }}>Ashbury Book</div>
+                <div style={{ marginBottom: "2rem", color: "white", fontSize: "20px" }}>
                     I built the Ashbury Book with the MERN stack to manage the games and statistics of my
                     dorm's poker semi-legal poker league. It does user login with JWTs, features a leaderboard,
                     a schedule of upcoming games, debt tracking and more.
-                </Typography>
+                </div>
                 <div style={{ width: "100", display: "table" }}>
                     <div style={{ display: "table-row" }}>
                         <div className={styles.github}

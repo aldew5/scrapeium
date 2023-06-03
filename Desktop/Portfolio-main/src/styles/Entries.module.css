@@ -1,6 +1,6 @@
 .text {
     color: white;
-    margin-top: 7rem;
+    margin-top: 5rem;
     margin-left: 20rem;
     margin-right: 20rem;
     display: block;
@@ -21,6 +21,16 @@
 .link {
     margin-left: 700px;
     text-decoration: underline;
+}
+
+.link:hover {
+    cursor: pointer;
+}
+
+.link2 {
+    margin-left: 650px;
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .container {

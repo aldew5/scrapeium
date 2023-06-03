@@ -8,6 +8,38 @@
     font-size: 25px;
 }
 
+.text2 {
+    color: white;
+    font-size: 25px;
+}
+
+.booktext {
+    color: white;
+    font-size: 15px;
+}
+
 .text:hover {
     text-decoration: underline;
+    cursor: pointer;
+}
+
+.small_hover:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.small {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.small_hover {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sdate {
+    color: rgb(207, 204, 204);
 }

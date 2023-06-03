@@ -13,6 +13,8 @@ import Aruco from "../assets/aruco.png";
 import Ashbury from "../assets/book.jpeg";
 import FallingBlocks from "../assets/falling_blocks.png";
 import Deworlde from "../assets/dewordle.png";
+import MammogramChecking from "../assets/MammogramChecking/trial.png";
+import Kaio from "../assets/kaio.png";
 
 interface ProjectProps {
     image: string,
@@ -36,6 +38,10 @@ const Project = ({ image, text }: ProjectProps) => {
             navigate("/fallingblocks");
         } else if (image === "dewordle") {
             navigate("/dewordle");
+        } else if (image === "mammogramchecking") {
+            navigate("/mammogramchecking");
+        } else if (image === "kaio") {
+            navigate("/kaio");
         }
     }
 
@@ -50,6 +56,10 @@ const Project = ({ image, text }: ProjectProps) => {
             setDisplay(FallingBlocks);
         } else if (image === "dewordle") {
             setDisplay(Deworlde);
+        } else if (image === "mammogramchecking") {
+            setDisplay(MammogramChecking);
+        } else if (image === "kaio") {
+            setDisplay(Kaio);
         }
     }, [])
 

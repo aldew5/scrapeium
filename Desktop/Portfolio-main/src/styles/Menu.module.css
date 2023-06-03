@@ -12,4 +12,5 @@
 .field:hover {
     text-decoration: underline;
     color: rgb(206, 35, 206);
+    cursor: pointer;
 }

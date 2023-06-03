@@ -1,6 +1,5 @@
 import SideBar from "../../components/SideBar";
 import styles from "../../styles/Template.module.css";
-import { Typography } from "@mui/material";
 
 // images
 import Menu from "../../assets/ARCVision/Menu.png";
@@ -11,15 +10,14 @@ const ARCVision = () => {
     return (
         <div style={{ width: "100%", overflow: "hidden" }}>
             <div className={styles.bar}>
-                <SideBar />
             </div>
             <div className={styles.para}>
-                <Typography variant="h4" color="white" style={{ marginBottom: "2rem" }}>ARCVision</Typography>
-                <Typography variant="h6" color="white" style={{ marginBottom: "2rem" }}>
+                <div style={{ marginBottom: "2rem", color: "white", fontSize: "40px" }}>ARCVision</div>
+                <div style={{ marginBottom: "2rem", color: "white", fontSize: "20px" }}>
                     ARCVision is an application built with Python3 and OpenCV that allows users to program
                     binary ArUco markers and see the results in augmented reality. It was built as an educational
                     tool to teach young people about programming (sort of like a real-world Scratch).
-                </Typography>
+                </div>
                 <div style={{ width: "100", display: "table" }}>
                     <div style={{ display: "table-row" }}>
                         <div className={styles.github}

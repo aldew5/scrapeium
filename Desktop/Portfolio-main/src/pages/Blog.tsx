@@ -13,15 +13,16 @@ const Blog = () => {
     const [math, setMath] = useState<boolean>(true);
 
     return (
-        <>
+        <div style={{ height: "100vh", display: 'flex' }}>
             <div className={styles.bar}>
-                <SideBar />
             </div>
             <div className={styles.title}>
                 <div>
-                    <Typography variant="h4" color="white" style={{ marginBottom: "2rem", marginLeft: "10rem" }}>Alec Dewulf's Blog</Typography>
+                    <Typography variant="h4" color="white" style={{ marginBottom: "2rem" }}>
+                        Alec Dewulf's Blog
+                    </Typography>
                 </div>
-                <div style={{ marginLeft: "10rem" }}>
+                <div>
                     <Menu
                         setScience={setScience}
                         setScifi={setScifi}
@@ -30,37 +31,29 @@ const Blog = () => {
                     />
                 </div>
                 <div className={styles.blogs}>
-                    {(math || science || general) ?
+                    {(general) ?
                         <Title
-                            date={"April 12, 2022"}
-                            text={"Probability and Why It's Important"}
-                            title={"Probability"}
+                            date={"August 26, 2022"}
+                            text={"Camp"}
+                            title={"Camp"}
+                            small={false}
                         />
                         : <></>
                     }
                 </div>
                 <div className={styles.blogs}>
-                    {(scifi || general) ?
+                    {(general) ?
                         <Title
-                            date={"April 22, 2022"}
-                            text={"Life: Chapter 1"}
-                            title={"LifeOne"}
-                        />
-                        : <></>
-                    }
-                </div>
-                <div className={styles.blogs}>
-                    {(general || science) ?
-                        <Title
-                            date={"May 24, 2022"}
-                            text={"Priming in Inefficient Visual Search: Real, but Transient"}
-                            title={"transient"}
+                            date={"August 28, 2022"}
+                            text={"Empty Notebooks"}
+                            title={"EmptyNotebook"}
+                            small={false}
                         />
                         : <></>
                     }
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 

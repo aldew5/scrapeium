@@ -1,0 +1,47 @@
+import { Typography } from "@mui/material";
+import styles from "../../styles/Entries.module.css";
+import { useNavigate } from "react-router-dom";
+
+const EmptyNotebook = () => {
+
+    const navigate = useNavigate();
+
+    return (
+        <div className={styles.text}>
+            <div className={styles.title}>
+                Empty Notebooks
+                <hr />
+            </div>
+            <div className={styles.container}>
+                <div className={styles.date}>
+                    August 27, 2022
+                </div>
+                <div className={styles.link} onClick={() => { navigate("/blog") }}>
+                    See all posts
+                </div>
+            </div>
+            <div className={styles.body}>
+                <Typography variant="body1">
+                    <p dir="ltr"><span>There are very few things that rival the peaceful simplicity of sitting on a sailboat in calm morning waters. One might argue that by setting sail during a windless day, a sailor defeats the excitement of the sport he has set out to do. Without wind filling the great canvases of the craft and coercing the flag atop the mast into an excited frenzy, is one really sailing at all? Well, of course he is! Sailing, like a good many other things, is open to interpretation. To be sailing one must simply extricate a boat from the harbor it resides in and voyage into the open water. All of the other details of the sport are left to the sailor to implement as he wishes.</span></p>
+                    <p dir="ltr"><span>This is exactly what Jordan Sharman did every Saturday morning after breakfast. He wasn&rsquo;t bothered by the fact that most of the time the sails of his craft lay depressingly limp without any wind to bolster their spirits. In fact, he often very much preferred the serene days like the one he was experiencing now. He enjoyed looking out into the water and letting his mind float up and down with the waves. Sometimes his ideas soared to the heights of fame, riches and happiness. Other times, they came crashing down to the troubles and uncertainties of his simple life. No matter what thoughts passed through Jordan&rsquo;s head, he knew they would be short lived. The evanescence of the waves and his ideas that rolled with them was what made sailing so calming for Jordan.</span></p>
+                    <p dir="ltr"><span>Today he wanted to sail further than usual. He wanted to sail far enough that he couldn&rsquo;t see the dock, or his house, or even the land they were connected to. He didn&rsquo;t want anything to remind him of the life he would eventually have to go back to when the morning ended. And so instead of turning around and beginning a sequence of laps around the bay like usual, Jordan let the nose of his ship continue to breathe the fresh salty air of the open sea. It was there he left it for quite a long period of time. Exactly how long he sailed for Jordan didn&rsquo;t know. He found that when he was thinking&ndash;when his mind was wandering with the waves&ndash;time was hard to keep track of.</span></p>
+                    <p dir="ltr"><span>At some point, Jordan realized that he could no longer see his home. He couldn&rsquo;t see his dock reaching out into the deep blue of the sea or even the tip of his house watching him over the horizon like it usually did.&nbsp; For the first time Jordan could remember, he felt free! He had no responsibilities here. The sea would surely not boss him around or force him to work a job he didn&rsquo;t find interesting. And although the gulls overhead sometimes screamed, their emotions were not directed at him.</span></p>
+                    <p dir="ltr"><span>Jordan leaned back on the edge of his ship and let the wind attack his wavy hair. He put his hand over the rail and let it trail in the water. He watched as the disruptions created by his hand were quickly filled in by other volumes of liquid rushing to take their companions&rsquo; spots.</span></p>
+                    <p dir="ltr"><span>After a while Jordan looked up away from the sea and out into the horizon. He was slightly startled to see that something was looking at him. He saw its head peering over the horizon in an attempt to glimpse him and his vessel as they bobbed up and down in the waves. Jordan was extremely bothered by this fact. This thing&ndash;whatever it is&ndash;was disturbing the peace of his voyage! He reached over to the rudder and turned it ninety degrees thereby putting him on a course between his home and whatever the intruder was.&nbsp;</span></p>
+                    <p dir="ltr"><span>Jordan watched with contentment as the thing lost its battle with the curvature of the Earth and faded away into the distance. &ldquo;That&rsquo;s better,&rdquo; he thought as he leaned back into his spot on the side of the boat. Once again Jordan was completely alone with the sea and his thoughts. He began to think about his idea for a pair of glasses that could&hellip; there was something staring at him!</span></p>
+                    <p dir="ltr"><span>Yes, there it was! It was there again peeking at him over the top of the waves every time his boat mounted a crest. Jordan pulled out his compass to make sure he was still on course. He saw that he was still sailing on a path perpendicular to his house and whatever it was he saw earlier. He reached for the rudder to turn around, but then changed his mind. He was going to continue on towards this thing and figure out what it was and why it refused to leave him alone.&nbsp;</span></p>
+                    <p dir="ltr"><span>He moved up towards the front of the craft to get a better look at the interloper. He stood up and squinted into the brightly lit sky trying to make out more of its features. It was a house! He could see its triangular roof and the two windows that made up its big innocent eyes. This house wasn&rsquo;t malicious. It wasn&rsquo;t trying to interfere with the tranquility of his voyage. Its immobility prevented it from granting Jordan the privacy he wished, but he could hardly fault it for that. He decided that he would continue on and see if it harbored any people that might be interested in talking to him.</span></p>
+                    <p dir="ltr"><span>As he neared closer to the house, it began to look less friendly. A piece of its siding was hanging off like a section of dead skin. Jordan saw that below the two windows there was a little porch that sagged at both ends into a lopsided frown. Even the tiling on the roof was beginning to fall off like the hair of an old man.</span></p>
+                    <p dir="ltr"><span>With a shock Jordan realized he was looking at his own house. He frantically pulled the compass back out of his pocket and checked his direction. He was going west, back the way he had come! How did that happen? He moved towards the back of the boat and shoved the rudder away from his body swinging his boat away from the gloomy visage of his home.&nbsp;</span></p>
+                    <p dir="ltr"><span>Even as he saw the top of its triangular head fade away into the waves Jordan felt uneasy. He was fairly confident that he had maintained his course, adjusting for the repeated pushes of the waves. Jordan closed his eyes and tried to picture his path through the morning water. He reckoned that by now he should be over a kilometer northeast of his home. He opened his eyes to make sure that he could no longer see his house, but found that the lids that covered them were much heavier than normal. Jordan let out a deep yawn and closed his eyes again. Perhaps he should just take a brief nap to relax and forget about the dreary look his home had given him.</span></p>
+                    <p><span><span>&nbsp;</span></span></p>
+                    <p dir="ltr" style={{ textAlign: "center" }}><span>#</span></p>
+                    <p dir="ltr"><span>Jordan woke up to the thud of his boat making contact with land. He opened his eyes and attempted to shake off the lingering grogginess he felt as a side-effect of his nap. With a shock, he realized that he was back at his own dock. He felt his boat shutter as it repeatedly pushed into the shore as if annoyed that he was still on its deck. He looked up and saw his wife was strutting down towards him, her features angled into a glare. He was supposed to be at work, he remembered. He should have begun spreading tar out in town over an hour ago. He pulled out a notebook he kept in the boat&rsquo;s dry compartment to sketch out his idea for the glasses before he forgot. With consternation, he realized he couldn&rsquo;t remember what they were supposed to do or what they looked like. He just couldn&rsquo;t focus over the sound of his wife&rsquo;s cries and the pull his stomach felt towards his work. With a sigh, he put his empty notebook back in its container and stepped out of his boat onto the dock. With his head down, he marched up the stone steps back towards his frowning home.</span></p>
+                    <p><span id="docs-internal-guid-3137de33-7fff-5fb2-3e8a-6290dd1c4519"><br /><br /></span></p>
+                </Typography>
+            </div>
+        </div>
+    )
+}
+
+export default EmptyNotebook;

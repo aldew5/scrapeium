@@ -5,14 +5,18 @@
 
 .title {
     width: 800px;
+    margin: auto;
     margin-top: 4rem;
     text-align: center;
-    float: left;
 }
 
 .blogs {
     display: block;
-    margin-left: 10rem;
     margin-top: 5rem;
     margin-bottom: -2rem;
 }
+
+.font { 
+    margin-bottom: -2rem;
+    font-family: 'Trebuchet MS', sans-serif;
+} 

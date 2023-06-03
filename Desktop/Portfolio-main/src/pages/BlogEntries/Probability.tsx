@@ -28,9 +28,9 @@ const Probability = () => {
                         They are the best approximations of the nature of things that we have come up with thus far, but many of them are likely a fair distance from the truth.
                     </p>
                     <p>
-                        The scientific framework allows ideas to be usurped by newer, more accurate ones.  Almost every theory can be challenged if the author’s corroborate their claims
+                        The scientific framework allows ideas to be usurped by newer, more accurate ones.  Almost every theory can be challenged if the authors corroborate their claims
                         with proper scientific rigor. The second law of thermodynamics is not one of them.  This famous law states that entropy always increases, that the disorder in the universe is always increasing.
-                        This is a fundamental truth about the Universe and it's really quite scary if you think about it for more than a second (more on this later).
+                        This is a fundamental truth about the universe and it's really quite scary if you think about it for more than a second (more on this later).
                         If you ever come up with an idea that goes against the second law of thermodynamics I suggest you head back to the drawing board.  You will be laughed at no matter how brilliantly you present your undoubtedly flawed arguments.
                     </p>
                     <p>
@@ -40,7 +40,7 @@ const Probability = () => {
                     </p>
                     <p>
                         Let’s look at another example in the distinct but closely related world of biology.  In 1859, Charles Darwin proposed his brilliant theory of natural selection (probability applied to nature).
-                        It states that heritable traits that more drastically increase the chances of an organism’s survival are more likely to be passed down.
+                        It states that heritable traits that more drastically increase the chances of an organism’s survival are more likely to be passed down to future generations.
                         If you continue this trend for long enough, you end up with species equipped with all of the amazing features biologists study today.
                         Wings, human brains, and beaks were developed because anomalies in DNA produced traits that made species more robust than their predecessors.  These anomalies occurred because as time
                         passed it became more and more likely for mutations in DNA to produce them.  Probability strikes again.

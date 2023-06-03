@@ -1,23 +1,24 @@
 .para {
     float: left;
     width: 500px;
-    margin-top: 12rem;
-    height: 580px;
+    margin-top: 10rem;
+    height: 680px;
+    font-family: 'Gentium Plus', serif;
 }
 
 .para2 {
     float: left;
     width: 500px;
-    margin-top: 12rem;
+    margin-top: 10rem;
     height: 580px;
     padding-right: 2rem;
+    font-family: 'Gentium Plus', serif;
 }
 
 .map {
     float: left;
-    width: 500px;
-    height: 400px;
-    margin-top: 12rem;
+    width: 600px;
+    margin-top: 16rem;
 }
 
 .images {
@@ -31,6 +32,7 @@
 .bar {
     width: 300px;
     float: left;
+    height: 100vh;
 }
 
 .profile {
@@ -42,20 +44,33 @@
     display: table-cell;
     color: white;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .website {
     display: table-cell;
     color: white;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .github:hover {
     text-decoration: underline;
     color: purple;
+    cursor: pointer;
 }
 
 .website:hover {
     text-decoration: underline;
     color: purple;
+    cursor: pointer;
+}
+
+.link {
+    color: white;
+}
+
+.link:hover {
+    color: purple;
+    cursor: pointer;
 }

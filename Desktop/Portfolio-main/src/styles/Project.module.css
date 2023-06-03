@@ -1,6 +1,6 @@
 .container {
     margin: auto;
-    margin-top: 10%;
+    margin-top: 20px;
     align-content: center;
 }
 
@@ -24,4 +24,8 @@
 
 .changed_book {
     padding-left: 4rem;
+}
+
+.container:hover {
+    box-shadow: 7px 7px 5px white;
 }

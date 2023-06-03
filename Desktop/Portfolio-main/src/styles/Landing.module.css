@@ -1,13 +1,10 @@
 .title {
-    margin: auto;
-    padding-left: 30rem;
-    padding-top: 14rem;
     margin-bottom: 3rem;
 }
 
 .project {
     margin-top: 2rem;
-    margin-left: 33rem;
+    margin-left: 1rem;
     display: flex;
     float: left;
 }

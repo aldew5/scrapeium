@@ -15,7 +15,7 @@ const SpatialVision = () => {
     return (
         <div className={styles.text}>
             <div className={styles.title}>
-                Single-Qubit Quantum Systems
+                Spatial Vision Research Without Noise
                 <hr />
             </div>
             <div className={styles.container}>

@@ -23,14 +23,14 @@ const Transient = () => {
     return (
         <div className={styles.text}>
             <div className={styles.title}>
-                Priming in Inefficient Visual Search: Real, but Transient
+                Priming Effects in Inefficient Visual Search: Real, but Transient
                 <hr />
             </div>
             <div className={styles.container}>
                 <div className={styles.date}>
                     May 24, 2022
                 </div>
-                <div className={styles.link} onClick={() => { navigate("/blog") }}>
+                <div className={styles.link} onClick={() => { navigate("/publications") }}>
                     See all posts
                 </div>
             </div>
